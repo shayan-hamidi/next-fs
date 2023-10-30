@@ -1,22 +1,24 @@
-import { TextField } from "@mui/material";
-import { Controller } from "react-hook-form";
+import { TextField, TextFieldProps } from "@mui/material";
+import { Controller, useFormContext } from "react-hook-form";
 
 export default function ShineTextInput({
-  methods,
   name,
+  textFieldProps,
 }: {
-  methods: any;
   name: string;
+  textFieldProps?: TextFieldProps;
 }) {
+  const { control } = useFormContext();
   return (
     <Controller
       name={name}
-      control={methods.control}
+      control={control}
       defaultValue=""
       render={({ field }) => (
         <TextField
           {...field}
-          label="Username"
+          {...textFieldProps}
+          label={name}
           variant="outlined"
           fullWidth
           margin="normal"

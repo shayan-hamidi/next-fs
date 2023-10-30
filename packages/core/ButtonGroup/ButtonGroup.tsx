@@ -5,7 +5,7 @@ export default function ShineButtonGroup({
   ...rest
 }: ButtonGroupProps) {
   return (
-    <ButtonGroup {...rest} aria-label="outlined primary button group">
+    <ButtonGroup {...rest} aria-label="button group">
       {children}
     </ButtonGroup>
   );
