@@ -36,7 +36,7 @@ export default function LogIn() {
               variant="contained"
               color="primary"
               fullWidth
-              i18nKey="Submit"
+              i18nKey="settings"
             />
           </form>
         </FormProvider>
