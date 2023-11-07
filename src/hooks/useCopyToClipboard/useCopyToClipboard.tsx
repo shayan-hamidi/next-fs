@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function useClipboard() {
+export default function useCopyToClipboard() {
   const [isCopied, setIsCopied] = useState(false);
   useEffect(() => {
     if (isCopied) {

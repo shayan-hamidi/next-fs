@@ -9,24 +9,26 @@ import {
   removeLocal,
 } from "@shine/helper";
 import { useState } from "react";
-import useClipboard from "@/hooks/CopyToClipboard/CopyToClipboard";
+import useClipboard from "@/hooks/useCopyToClipboard/useCopyToClipboard";
 import { nationalCodeValidator } from "@shine/form";
 import { ShineButtonGroup } from "../../packages/core/ButtonGroup";
 import { ShineButton } from "../../packages/core/Button";
 import { addTranslationSchema, i18nObject } from "@/i18nConfig";
 import faTranslations from "../i18n/fa.json";
 import { I18nextProvider, useTranslation } from "react-i18next";
+import useVersion from "@/hooks/useVersion/useVersion";
 
 export default function Home() {
   const { isCopied, copyToClipboard } = useClipboard();
   const handleCopyToClipboard = () => {
     copyToClipboard("text");
   };
-  const {t} = useTranslation()
+  const { t } = useTranslation();
+  const { version } = useVersion();
   addTranslationSchema("fa", faTranslations);
   return (
     <I18nextProvider i18n={i18nObject}>
-      sdfsdhfsdf{t('settings')}
+      version {version}
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
