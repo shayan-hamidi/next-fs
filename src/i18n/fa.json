@@ -1,280 +1,31 @@
 {
-    "settings": "تنظیمات",
-    "taxpayer": "مودی",
-    "table": "جدول",
-    "ascSorting": "مرتب‌سازی صعودی",
-    "descSorting": "مرتب‌سازی نزولی",
-    "noSorting": "بدون مرتب‌سازی",
-    "return": "بازگشت",
-    "add": "اضافه",
-    "posSeries": "سریال پایانه فروشگاهی",
-    "posDetail": "مشخصات پایانه فروشگاهی",
-    "TEMPORARY": "جدا سازی",
-    "PERMANENT": "رها سازی",
-    "version": "نسخه: ",
-    "yes": "بله",
-    "no": "خیر",
-    "submit": "ثبت",
-    "save": "ذخیره",
-    "moreNotifications": "نمایش بیشتر",
-    "INDIVIDUAL": "حقیقی",
-    "CORPORATION": "حقوقی",
-    "invoiceTypeList": {
-        "TEST": "آزمون",
-        "SELL": "فروش",
-        "BUY": "خرید",
-        "CORRECTIVE": "اصلاحی",
-        "REVOKE": "ابطالی",
-        "RETURN_ON_SALES": "برگشت از فروش",
-        "EXPORT": "صادرات",
-        "BUY_WITHOUT_CUSTOMS_DECLARATION": "خرید از شخص خارجی بدون اظهارنامه گمرکی",
-        "PERSONAL_CONSUMPTION": "مصرف شخصی",
-        "SALES_TO_FOREIGN_TRAVELERS": "فروش به مسافر خارجی جهت استرداد مالیات بر ارزش افزوده",
-        "AGREEMENT": "قرارداد/مبایعه‌نامه"
-    },
-    "membership": {
-        "permanentDeactivation": "غیرفعالسازی دائم",
-        "temporaryDeactivation": "غیرفعالسازی موقت",
-        "haveToFillThisField": "پر کردن این فیلد اجباری است",
-        "sidebar": {
-            "fiscalMemory": "مدیریت حافظه‌های مالیاتی",
-            "terminal": "مدیریت پایانه‌های فروشگاهی",
-            "pos": "ابزار های پرداخت",
-            "taxpayerSystem": "مدیریت اطلاعات تکمیلی و شرکت‌های معتمد",
-            "accountManagement": "مدیریت حساب‌ها",
-            "trustedCompanies": "شرکت معتمد/سامانه دولتی",
-            "normalUniqueID": " شناسه های یکتا حافظه مالیاتی",
-            "paymentTerminalUniqueId": " شناسه یکتا پایانه پرداخت"
-        }
-    },
-    "taxFileManagement": {
-        "sidebar": {
-            "registrationInformation": "اطلاعات ثبت نامی",
-            "participationBillId": "شناسه اشتراک قبوض",
-            "userManagment": "مدیریت کاربران",
-            "users": "کاربران",
-            "roles": "نقش ها",
-            "addTitle": "افزودن نقش",
-            "detailsTitle": "جزئیات نقش"
-        }
-    },
-    "otherDemands": {
-        "sidebar": {
-            "changeJob": "تغییر شغل",
-            "changeOwnership": "تغییر مالکیت",
-            "changeActivityPlace": "تغییر محل فعالیت",
-            "announceDissolution": "اعلام تعطیلی / انحلال",
-            "announceTechnicalviolation": "اعلام بروز حادثه یا نقص فنی",
-            "beneficiariesMembership": "عضویت ویژه مشمولین ت.م 2"
-        }
-    },
-    "loginTitle": "ورود به سامانه کارپوشه",
-    "systemTitle": "کارپوشه مؤدیان مالیاتی",
-    "logOut": "خروج از سامانه",
-    "systemSubTitle": "کارپوشه مؤدیان",
-    "clientV": "ورژن کلاینت :",
-    "coreV": "ورژن هسته :",
-    "collectionV": "ورژن جمع آوری :",
-    "membershipTitle": "سامانه ثبت نام و \nعضویت در سامانه مؤدیان",
-    "noOptions": "موردی یافت نشد",
-    "sidebar": {
-        "OLD_INVOICE_MANAGEMENT": " صورتحساب های قبل از ۱۴۰۲/۰۳/۰۶",
-        "brokingContracts": "قرارداد های حق العملکاری",
-        "greenFees": "عوارض سبز",
-        "MessagesAndNotfications": "پیام ها و اعلانات پرونده مالیاتی",
-        "portfolio": "مالیات",
-        "counter": "پیشخوان",
-        "taxFile": "مدیریت پرونده مالیاتی",
-        "contractManagement": "مدیریت قراردادها",
-        "brokerClientContracts": "قرارداد های حق العملکاری",
-        "contractingContracts": "قرارداد های پیمانکاری",
-        "buyNotficationManagement": "مدیریت اطلاعیه های خرید",
-        "taxPeriodSummary": "خلاصه عملکرد دوره مالیاتی",
-        "performanceSummary": "خلاصه عملکرد",
-        "messagesAndNotfications": "پیام ها و اعلانات",
-        "otherDemands": "سایر درخواست ها",
-        "settings": "تنظیمات",
-        "businessServices": "خدمات مرتبط با کسب و کار",
-        "membership": "عضویت",
-        "taxpayerSystem": "مدیریت اطلاعات تکمیلی و شرکت‌های معتمد",
-        "dashboard": "میز کار",
-        "invoice-management": "مدیریت صورتحساب",
-        "invoice": {
-            "sell": "صورتحساب‌های فروش",
-            "buy": "صورتحساب‌های خرید",
-            "action": "اقدام سریع"
-        },
-        "activity-location": "انتخاب محل فعالیت",
-        "announcements": "پیام‌ها و اعلانات",
-        "accountManagement": "مدیریت حساب‌های بانکی",
-        "backToPortfolio": "بازگشت به کارپوشه",
-        "uniqueIdManagement": "مدیریت شناسه یکتا",
-        "listOfTaxCourses": "فهرست دوره های مالیاتی",
-        "debtPaymentOrPaymentOrder": "پرداخت بدهی / ترتیب پرداخت",
-        "PaymentArrangementOfDebtBalancePayment": "پرداخت/ترتیب پرداخت مانده بدهی",
-        "RepaymentTransferOfCredit": "استرداد/انتقال بستانکاری",
-        "ProtestDelayedReturn": "اعتراض به تاخیر در استرداد",
-        "activity": {
-            "trackingCode": "شماره رهگیری: ",
-            "taxpayerType": "نوع شخص: ",
-            "address": "محل فعالیت: ",
-            "confirmation": {
-                "label": "وضعیت فعالیت: ",
-                "CONFIRM": "فعال",
-                "REJECT": "غیرفعال"
-            }
-        },
-        "sell": "صورتحساب‌های فروش",
-        "buy": "صورتحساب‌های خرید",
-        "action": "اقدام سریع",
-        "Add": "افزودن",
-        "Details": "جزئیات بیشتر"
-    },
-    "notifications": {
-        "private": {
-            "title": "نمایش پیام‌ها و اعلانات مربوط به محل فعالیت"
-        },
-        "public": {
-            "title": "نمایش پیام‌ها و اعلانات عمومی"
-        },
-        "SELECT": "همه",
-        "read": "خوانده شده",
-        "unread": "خوانده نشده",
-        "dateRange": "بازه تاریخ از",
-        "dateRangeTo": "تا",
-        "basedOn": "بر اساس",
-        "priority": "اولویت",
-        "showNotifications": "نمایش پیام‌ها و اعلانات",
-        "spring": "بهار",
-        "summer": "تابستان",
-        "fall": "پاییز",
-        "winter": "زمستان",
-        "inProgress": "در حال بررسی",
-        "NOTICE": "اخطار",
-        "WARNING": "هشدار",
-        "NOTIFICATION": "اطلاع‌رسانی",
-        "CONFIRM": "تأیید",
-        "SYSTEM_CONFIRM": "تأیید سیستمی",
-        "REJECT": "رد",
-        "warning": "اخطار",
-        "alarm": "هشداری",
-        "notice": "اطلاع‌رسانی",
-        "guild": "عنوان محل فعالیت",
-        "type": "نوع پیام",
-        "title": "عنوان پیام",
-        "createdTime": "زمان پیام",
-        "createdDate": "تاریخ پیام",
-        "category": "دسته‌بندی پیام",
-        "messageId": "شناسه پیام",
-        "description": "توضیحات پیام",
-        "year": "سال",
-        "fiscalPeriod": "دوره مالیاتی",
-        "messageStatus": "وضعیت پیام",
-        "taxPeriod": "دوره مالیاتی",
-        "table": {
-            "messageId": "شناسه پیام",
-            "type": "نوع پیام",
-            "title": "عنوان پیام",
-            "createdDate": "تاریخ پیام",
-            "category": "دسته‌بندی پیام",
-            "actions": "عملیات"
-        },
-        "categories": {
-            "DECLARATION": "اظهارنامه",
-            "VIOLATION": "تخلف",
-            "NOTIFICATION": "ابلاغ الکترونیکی"
-        }
-    },
-    "results": {
-        "table": {
-            "title": "نام پرونده",
-            "identityCode": "شناسه پرونده مالیاتی",
-            "id": "شناسه",
-            "taxpayerType": "نقش در پرونده",
-            "actions": "عملیات"
-        }
-    },
-    "selectYear": "همه",
-    "season": {
-        "select": "همه",
-        "spring": "بهار",
-        "summer": "تابستان",
-        "autumn": "پاییز",
-        "winter": "زمستان"
-    },
-    "successMessage": {
-        "removeEntities": "اطلاعات با موفقیت حذف موقت شد",
-        "saveOrUpdate": "اطلاعات با موفقیت ذخیره شد",
-        "purgeEntities": "اطلاعات با موفقیت حذف شد",
-        "restoreEntities": "اطلاعات با موفقیت بازیابی شد",
-        "deactivation": "غیرفعال‌سازی با موفقیت انجام شد",
-        "informationSubmit": "درخواست شما با موفقیت ثبت شد"
-    },
-    "errorMessages": {
-        "noBranchesFound": "محل فعالیتی پیدا نشد"
-    },
-    "dataTable": {
-        "confirmation": "تأیید",
-        "deactivation": "غیرفعال‌سازی",
-        "edit": "ویرایش",
-        "rejection": "رد",
-        "actions": "عملیات",
-        "protest": "اعتراض",
-        "viewDetail": "نمایش جزئیات"
-    },
-    "packages": {
-        "form": {
-            "switchButton": {
-                "light": "روشن",
-                "dark": "تاریک"
-            }
-        },
-        "core": {
-            "generalSelect": {
-                "selected": "انتخاب شده"
-            },
-            "multiTaskTable": {
-                "selectAll": "همه ستون ها",
-                "search": "جستجو",
-                "ACTIVE": "فعال",
-                "DEACTIVE": "غیرفعال",
-                "WAITING": "در انتظار",
-                "row": "ردیف",
-                "filterTitle": "فیلتر داده ها بر اساس:",
-                "columnTitle": "نمایش ستون ها:",
-                "default": "پیشفرض",
-                "loading": "در حال بارگذاری...",
-                "noData": "داده ای یافت نشد"
-            },
-            "rangeSlider": {
-                "priceFrom": "بازه مبلغ از :",
-                "to": "تا",
-                "price": "مبلغ :",
-                "rial": "ریال"
-            },
-            "stepper": {
-                "finish": "اتمام",
-                "close": "بستن",
-                "cancel": "انصراف",
-                "next": "بعدی",
-                "prev": "قبلی",
-                "APPROVE": "تایید"
-            },
-            "treeView": {
-                "from": "از",
-                "items": "مورد",
-                "page": "صفحه",
-                "clearAll": "حذف همه"
-            }
-        },
-        "http": {
-            "responses": {
-                "400": "انجام عملیات با خطا مواجه شد .",
-                "401": "'نام کاربری یا رمز عبور اشتباه است.'",
-                "403": "دسترسی به این بخش امکان پذیر نمی باشد.",
-                "404": "سرویس مورد نظر یافت نشد.",
-                "500": "انجام عمليات در سرور با خطا مواجه شد."
-            }
-        }
-    }
+  "OK": "باشه",
+  "SUBMIT": "ثبت",
+  "YES": "بله",
+  "NO": "نه",
+  "SEARCH": "جستجو",
+  "ADVANCED_SEARCH": "جستجوی پیشرفته",
+  "LOGIN": "ورود",
+  "SIGN_UP": "ثبت نام",
+  "USER_NAME": "نام کاربری",
+  "RIAL": "ريال",
+  "NATIONAL_CODE": "کد‌ملی",
+  "NATIONAL_ID": "شناسه ملی",
+  "PASSWORD": "گذرواژه",
+  "PROFILE": "پروفایل",
+  "SETTINGS": "تنظیمات",
+  "COPYRIGHT": "حقوق نشر",
+  "SUBSCRIBE": "اشتراک گذاری",
+  "DOWNLOAD": "دانلود",
+  "UPLOAD": "آپلود",
+  "NEXT": "بعدی",
+  "PREVIOUS": "قبلی",
+  "BUY": "خرید",
+  "SELL": "فروش",
+  "ADD_TO_CART": "افزودن به سبد خرید",
+  "CHECKOUT": "تسویه حساب",
+  "FORGOT_PASSWORD": "فراموشی گذرواژه",
+  "SEARCH_RESULTS": "نتایج جستجو",
+  "CART": "سبد خرید",
+  "LOGOUT": "خروج"
 }
